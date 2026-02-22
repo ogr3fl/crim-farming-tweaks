@@ -5662,6 +5662,6 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if KeepInfYield and (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
-		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ogr3fl/crim-farming-tweaks/source.luau'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ogr3fl/crim-farming-tweaks/refs/heads/main/source.luau'))()")
 	end
 end)
